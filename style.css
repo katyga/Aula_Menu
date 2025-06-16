@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+nav{   
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    top: 0;
+    background-color: #333;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/*hover serve para animar o objeto quando o mouse passa por cima*/
+a:hover{
+    background-color: #555;
+    color: green;
+    transition: 0.5s ease-in-out;
+}
